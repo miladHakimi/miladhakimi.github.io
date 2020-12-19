@@ -1,0 +1,55 @@
+@font-face {
+    font-family: myFont;
+    src: url(fonts/Indie_Flower/IndieFlower-Regular.ttf);
+}
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+a:hover {
+    color: orange !important;
+    transition: 0.5s;
+}
+
+.links:hover{
+    border: dotted 1px rgb(206, 99, 13) !important;
+}
+
+
+html, 
+body {
+    height: 100%;
+    background-color: #3a3a3a !important;
+}
+
+.container {
+    background: url("img/main_bg.jpeg") no-repeat right bottom !important;
+    padding: 0;
+}
+
+.content {
+    background-color: #222 !important;
+    color: antiquewhite;
+    margin-top: 100px !important;
+    padding-top: 55px !important;
+    border-radius: 10px;
+}
+
+.name {
+    font-size: 30px;
+    margin: 10px !important;
+    text-align: center;
+}
+
+.name:hover {
+    color: orange;
+    transition: 0.25s;
+}
+
+.links {
+    text-align: center !important;
+    padding: 35px !important;
+    font-size: 20px !important;
+    text-align: center;
+}
